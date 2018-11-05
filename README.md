@@ -1,2 +1,2 @@
 # sticker
-Marketing sticker in React
+Marketing sticker code using React.js.
