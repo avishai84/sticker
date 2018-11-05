@@ -1,0 +1,32 @@
+.sticker {
+    position: relative;
+    margin: 0 2em 0.5em 0;
+    animation: stickerFadeIn 2s ease;
+  
+    @keyframes stickerFadeIn {
+      from { bottom: -100vh; }
+      to { bottom: 0; }
+    }
+  
+    button {
+      background-color: transparent;
+      border: none;
+    }
+  
+    .sticky_container {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        z-index: 20;
+  
+      &:hover {
+        cursor: pointer;
+      }
+  
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+  
